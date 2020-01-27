@@ -1,0 +1,4 @@
+.page{
+    @include d-flex('row');
+    overflow: hidden;
+}

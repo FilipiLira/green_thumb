@@ -1,0 +1,60 @@
+@import '~bootstrap/scss/bootstrap';
+
+//Helpers
+@import '../scss/helpers/variaveis.scss';
+@import '../scss/helpers/mixins.scss';
+
+//Layouts
+@import '../scss/layout/l-global.scss';
+
+
+//Modules
+@import '../scss/module/buy-page.scss';
+@import '../scss/module/principal-container.scss';
+@import '../scss/module/end-page.scss';
+@import '../scss/module/quizz-pats.scss';
+@import '../scss/module/quizz-sun.scss';
+@import '../scss/module/quizz-water.scss';
+@import '../scss/module/results-filter.scss';
+@import '../scss/module/start-page.scss';
+@import '../scss/module/inicial-wrapper.scss';
+@import '../scss/module/posit-relative.scss';
+@import '../scss/module/inicial-img-1.scss';
+@import '../scss/module/inicial-img-2.scss';
+@import '../scss/module/logo.scss';
+@import '../scss/module/logo-2.scss';
+@import './module/logo-3.scss';
+@import '../scss/module/title.scss';
+@import '../scss/module/btn-theme1.scss';
+@import '../scss/module/btn-theme2.scss';
+@import '../scss/module/btn-right.scss';
+@import '../scss/module/btn-left.scss';
+@import '../scss/module/container-into.scss';
+//@import '../scss/module/btn-start.scss';
+@import '../scss/module/btn-lightText.scss';
+@import '../scss/module/page.scss';
+@import '../scss/module/bootstrap-container.scss';
+@import '../scss/module/button-container.scss';
+@import '../scss/module/btn-filter.scss';
+@import '../scss/module/clicado.scss';
+@import '../scss/module/quizz-title.scss';
+@import '../scss/module/btn-move-wrapper.scss';
+@import '../scss/module/last-btn.scss';
+@import '../scss/module/left-line.scss';
+@import '../scss/module/detalhe-lateral.scss';
+@import '../scss/module/text-center-2.scss';
+@import '../scss/module/card-plant.scss';
+@import '../scss/module/container-cards-plant.scss';
+@import '../scss/module/content-none.scss';
+@import '../scss/module/card-plant-buy.scss';
+@import '../scss/module/card-plant-form.scss';
+@import '../scss/module/margin-0.scss';
+@import '../scss/module/padding-0.scss';
+@import '../scss/module/alertInput.scss';
+@import './module/confirm.scss';
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+.container-cards-plant{
+    @media (max-width: 992px){
+        flex-wrap: inherit!important;
+        overflow-x: scroll;
+        padding: 0 60px 0 60px ;
+        box-sizing: border-box;
+    }
+}

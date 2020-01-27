@@ -1,0 +1,7 @@
+.button-container{
+    @media (max-width: 800px) {
+        @include d-flex(row);
+        justify-content: center;
+        padding-top: 10px!important;
+    }
+}

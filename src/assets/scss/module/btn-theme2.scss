@@ -1,0 +1,32 @@
+.btn-theme2{
+    min-width: 150px;
+    max-width: 160px;
+    max-height: 52.6px;
+    padding: $btn-padding;
+    @include btn-radius;
+    @include d-flex(row);
+    @include user-select;
+    align-items: center;
+    background-color: $theme-color;
+    color: rgb(63, 130, 131);
+    border: 1.3px solid $green-light;
+    font-size: $h12-size;
+    font-weight: 600;
+    padding-left: 20px;
+    outline: none!important;
+    cursor: pointer;
+
+    img{
+        width: 20px;
+    }
+
+    &:hover{
+        background-color: $green;
+        border: 1.3px solid $green;
+        color: $theme-color;
+    }
+
+    @media (max-width: 991px) {
+        font-size: $h8-size;
+    }
+}

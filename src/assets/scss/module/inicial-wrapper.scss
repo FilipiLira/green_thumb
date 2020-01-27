@@ -1,0 +1,10 @@
+.inicial-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    @media (max-width: 800px){
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+}

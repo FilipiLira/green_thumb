@@ -1,0 +1,29 @@
+@mixin d-flex($direction){
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin btn-radius {
+    border-radius: $btn-radius-1;
+}
+
+@mixin user-select{
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;    
+    -khtml-user-select: none;     
+    -moz-user-select: none;       
+    -ms-user-select: none;        
+    user-select: none;
+}
+
+@mixin box-shadow($color){
+    box-shadow: 0.5px 0.5px 20px $color;
+    -moz-box-shadow:  0.5px 1px 20px $color;
+    -webkit-box-shadow:  0.5px 1px 20px $color;
+}
+
+@mixin box-shadow2($color){
+    box-shadow: 0.5px 0.5px 10px $color;
+    -moz-box-shadow:  0.5px 1px 10px $color;
+    -webkit-box-shadow:  0.5px 1px 10px $color;
+}

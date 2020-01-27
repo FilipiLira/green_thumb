@@ -1,0 +1,20 @@
+<svg width="57" height="70" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+
+ <title>Icon/Big/OneDrop</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="assets">
+   <g fill="#7BAF9E" id="styleguide">
+    <g id="Icon/Big/OneDrop">
+     <path fill="#6e6e6e" id="Fill-1" d="m28.29787,2.58478c-4.10508,3.93836 -26.41135,25.9495 -26.41135,39.17651c0,14.53352 11.84832,26.35613 26.41135,26.35613c14.56303,0 26.41135,-11.82261 26.41135,-26.35613c0,-13.22701 -22.30627,-35.23815 -26.41135,-39.17651m0,67.41522c-15.60344,0 -28.29787,-12.66789 -28.29787,-28.23871c0,-15.31009 26.52643,-40.11591 27.65551,-41.16451l0.64236,-0.59678l0.64236,0.59678c1.12909,1.0486 27.65551,25.85442 27.65551,41.16451c0,15.57082 -12.69442,28.23871 -28.29787,28.23871"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

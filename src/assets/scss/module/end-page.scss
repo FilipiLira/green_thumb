@@ -1,0 +1,9 @@
+.end-page{
+    background-color: $theme-color;
+
+    &{
+        @media (max-width: 992px){
+            overflow-y: scroll;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.last-btn1{
+    div{
+        img{
+            width: 52px;
+            margin-top: 25px;
+
+            @media (max-width: 992px){
+                margin-top: 0;
+            }
+        }
+    }
+}

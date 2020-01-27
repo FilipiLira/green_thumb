@@ -1,0 +1,85 @@
+.card-plant{
+    @include d-flex(column);
+    align-items: center;
+    width: 277px;
+    height: 345px;
+    border-radius: 0.25rem;
+    background-color: $white;
+    @include box-shadow($box-shadow-1);
+    cursor: pointer;
+    transition: all .2s ease-in;
+    color: $text-color;
+    flex-wrap: wrap;
+    margin: 30px 15px 30px 15px;
+
+    @media (max-width: 992px){
+        min-width: 277px!important;
+    }
+
+    .img-card-plant{
+        width: 200px;
+        height: 200px;
+        margin: 0!important;
+    }
+
+    .card-plant-details{
+        width: 78%;
+        @include d-flex(column);
+        justify-content: start;
+        box-sizing: border-box;
+        .card-plant-title{
+            font-size: $h8-size;
+            font-weight: 800;
+            color: $green;
+            
+            p{
+                margin-bottom: 3px;
+            }
+        }
+
+        .price-icons{
+            padding: 0 20px 0 15px;
+
+            .price{
+                margin: 0;
+                @include d-flex(row);
+                align-items: center;
+            }
+
+            img{
+                width: 20px;
+                height: 20px;
+                margin: 3px;
+            }
+
+            /*img:first-of-type{
+                width: 20px;
+                height: 20px;
+            }*/
+        }
+    }
+
+    .btn-buy{
+        
+
+        .btn-theme2{
+            @include d-flex(row);
+            justify-content: center;
+            align-items: center;
+            font-size: $h9-size;
+            font-weight: 300;
+            min-width: 200px;
+            background-color: $white;
+            box-sizing: content-box;
+            margin-top: 7px;
+
+            
+
+            &:hover{
+                background-color: $green;
+                border: 1.3px solid $green;
+                color: $theme-color;
+            }
+        }
+    }
+}

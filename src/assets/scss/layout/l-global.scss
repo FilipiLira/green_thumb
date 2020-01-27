@@ -1,0 +1,22 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+         'page';
+    margin: 0;
+}
+
+main{
+    grid-area: page;
+    background-color: $theme-color;
+}
+
+i{
+    font-family: 'Material Icons';
+}

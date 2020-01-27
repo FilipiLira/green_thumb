@@ -1,0 +1,25 @@
+.inicial-img-2{
+    display: none;
+    position: absolute;
+    bottom: -3%;
+    width: 100%;
+    img{
+        width: 50vh;
+    }
+    @media (max-width: 800px) {
+        @include d-flex(row);
+        justify-content: center;
+    }
+
+    @media (max-height: 500px) and (max-width: 650px){
+       
+    }
+
+    @media (max-height: 500px) and (max-width: 780px){
+        left: 35%;
+        bottom: -5%;
+        img{
+            width: 70vh;
+        }
+    }
+}

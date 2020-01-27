@@ -1,0 +1,68 @@
+.btn-filter{
+    width: 190px;
+    height: 175px;
+    border-radius: 0.25rem;
+    background-color: $white;
+    @include box-shadow($box-shadow-1);
+    cursor: pointer;
+    transition: all .2s ease-in;
+    margin: 12px;
+    color: $text-color;
+    flex-wrap: wrap;
+    &:hover{
+       background-color: $orange;
+       color: $white;
+       font-weight: 600;
+       @include box-shadow($orange);
+    }
+
+    div{
+        img{
+            width: 70px;
+            margin-top: 20px;
+        }
+    }
+
+    p{
+        font-size: $h10-size;
+        
+    }
+
+    @media (max-width: 992px){
+        width: 300px;
+        height: 80px;
+
+        div{
+            margin: 0;
+            img{
+                margin-top: 0;
+            }
+        }
+
+        p{
+            text-align: left!important;
+            font-size: $h8-size;
+        }
+    }
+
+    @media (max-width: 992px){
+
+        div{
+            img{
+                margin-top: 0;
+                width: 98px!important;
+            }
+        }
+    }
+}
+
+.quizz-water .btn-filter img:nth-child(1n){
+    width: 100px;
+    height: 70px;
+}
+
+.quizz-pats .btn-filter img:nth-child(1n){
+    width: 100px;
+    height: 70px;
+}
+

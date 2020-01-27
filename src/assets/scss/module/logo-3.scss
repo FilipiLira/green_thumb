@@ -1,0 +1,21 @@
+.logo-3{
+    display: none;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 60px;
+    @include user-select;
+    img{
+        width: 200px;
+    }
+
+    @media (max-width: 800px){
+        @include d-flex(row);
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    @media (max-width: 992px){
+        display: flex!important;
+    }
+}

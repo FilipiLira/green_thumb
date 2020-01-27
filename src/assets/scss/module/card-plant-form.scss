@@ -1,0 +1,141 @@
+.card-plant-form{
+    width: 340px;
+    height: 470px;
+    background-color: rgb(246, 246, 246);
+    padding: 35px 50px;
+    @media (max-width: 992px){
+        width: 100%!important;
+        padding: 35px 20px;
+    }
+
+    .title1{
+        font-size: $h5-size;
+        font-weight: 800;
+    }
+
+    .title2{
+        font-size: $h10-size;
+        color: $text-color;
+        line-height: 1.9;
+        font-weight: 500;
+    }
+
+    form{
+
+        label{
+           font-size: $h10-size;
+           font-weight: 700;
+           color: $text-color;
+
+           @media (max-width: 992px){
+               font-size: $h9-size;
+           }
+        }
+
+        input{
+            @include btn-radius;
+            width: 100%;
+            height: 34px;
+            border: none;
+            font-size: $h14-size;
+            padding-left: 20px;
+            color: rgb(29, 24, 24);
+            font-weight: 500;
+            outline: 0;
+            transition: all .1s ease-in-out;
+
+            @media (max-width: 992px){
+                height: 48px;
+                font-size: $h10-size;
+            }
+
+            &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: rgb(209, 207, 207);
+                opacity: 1; /* Firefox */
+              }
+
+            &::-webkit-input-placeholder {
+                color: rgb(209, 207, 207);
+             }
+             
+            &:-moz-placeholder {
+                color: rgb(209, 207, 207);
+             }
+             
+            &::-moz-placeholder {
+                color: rgb(209, 207, 207);
+             }
+             
+            &:-ms-input-placeholder {  
+                color: rgb(209, 207, 207);
+             }   
+        }
+
+        .alert-input{
+            border: 1.5px solid red;
+
+            &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: red;
+                opacity: 1; /* Firefox */
+              }
+
+            &::-webkit-input-placeholder {
+                color: red;
+             }
+             
+            &:-moz-placeholder {
+                color: red;
+             }
+             
+            &::-moz-placeholder {
+                color: red;
+             }
+             
+            &:-ms-input-placeholder {  
+                color: red;
+             }   
+            
+        }
+    }
+
+    .form-alert{
+        font-size: $h14-size;
+        display: none;
+
+        p{
+            @include d-flex(row);
+            align-items: center;
+            margin: 0px;
+            color: red;
+        }
+
+        i{
+            font-size: $h9-size;
+            margin-right: 5px;
+            color: red;
+        }
+    }
+
+    .btn-send{
+        @media (max-width: 992px){
+            justify-content: center!important;
+        }
+    }
+
+    .form-btn{
+        @include d-flex(row);
+        justify-content: center;
+        min-width: 120px!important;
+        width: 120px;
+        margin-top: 20px;
+        padding: 10px;
+        margin: 0px!important;
+        margin: 33px 20px 0px 0px!important;
+
+        @media (max-width: 992px){
+            min-width: 90%!important;
+            width: 90%;
+            margin: 20px 0px 0px 0px!important;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.bootstrap-container{
+    @media (max-width: 992px){
+        min-width: 100%!important;
+    }
+
+    @media (max-width: 800px) {
+        min-width: 50%!important;
+        padding: 0!important;
+    }
+}

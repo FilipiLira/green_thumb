@@ -1,0 +1,6 @@
+.clicado{
+    background-color: $orange;
+    color: $white;
+    font-weight: 600;
+    @include box-shadow($orange);
+}

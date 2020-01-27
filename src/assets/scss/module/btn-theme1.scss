@@ -1,0 +1,26 @@
+.btn-theme1{
+    max-height: $btn-max-height;
+    padding: $btn-padding;
+    @include btn-radius;
+    @include d-flex(row);
+    @include user-select;
+    align-items: center;
+    background-color: $green;
+    color: $btn-colorText1;
+    border: 0 none;
+    font-size: $h12-size;
+    font-weight: 700;
+    padding: 15px 32px 15px 32px;
+    box-sizing: content-box;
+    outline: none!important;
+    cursor: pointer;
+
+    
+    img{
+        width: 20px;
+    }
+
+    @media (max-width: 400px) {
+        padding: 15px 32px 15px 32px;
+    }
+}
